@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body style="background-color: black;">
+    <div class="navbar navbar-expand-lg  bg-dark text-white " >
+        <div class="container-fluid ">
+          <img src="hero\logo.png" height="25px" alt="" class="ps-3" />
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div
+              class="navbar-toggler-icon my-toggler d-flex justify-content-center align-items-center"
+              style="background-image: none"
+            >
+              <i class="fa-solid fa-bars" style="color: #d1d1d1"></i>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="index.html"
+                  ><b>HOME</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./index.html #abt"><b>ABOUT</b></a>              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="classes.html"><b>CLASSES</b></a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="services.html"><b>SERVICES</b></a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="ourTeam.html"><b>OUR TEAM</b></a>
+        </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-white dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                <b>PAGES</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"><b>WORKOUT CLASSES TIMETABLE</b></a></li>
+                  <li><a class="dropdown-item" href="bmicalculator.html"><b>BMI CALCULATOR</b></a></li>
+                  <li><a class="dropdown-item" href="gallary.html"><b>GALLARY</b></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html"><b>CONTACT</b></a>
+              </li>
+            </ul>
+            
+          </div>
+         
+        </div>
+      </div>
+     
+      <div class="row ">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <div class="card bg-dar text-white">
+            <img style="height: 500px;" src="bmi img\bmi.jpg" class="card-img " alt="...">
+          
+           </div>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+      <div class="text-center"><h1 class="text-white mt-4 mb-4">BMI CALCULATOR CHART
+    </h1></div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6"><table class="table table-success table-striped table-hover">
+            <tr>
+                <th>BMI</th>
+                <th>WEIGHT STATUS</th>
+            </tr>
+            <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+            </tr>
+            <tr>
+                <td>18.5 - 24.9</td>
+                <td>Healthy</td>
+            </tr>
+            <tr>
+                <td>25.0 - 29.9</td>
+                <td>Overweight</td>
+            </tr>
+            <tr>
+                <td>30.0 - and Above</td>
+                <td>Obese</td>
+            </tr>
+          </table></div>
+        <div class="col-sm-3"></div>
+
+    </div>
+    <div class="text-center"><h1 class="text-white mt-4 mb-4">CALCULATE YOUR BMI
+    </h1></div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias non, nemo optio provident quos voluptates veniam dolorum quia! Dolores accusantium doloribus reprehenderit nisi nihil! Dignissimos, nesciunt. Vitae facilis eveniet in.</div>
+            <div class="form-floating mb-3 mt-2">
+            <input type="number" class="form-control" id="floatingInput" placeholder="Height/cm">
+            <label for="floatingInput">Height/cms</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" id="floatingPassword" placeholder="Weight/kg">
+            <label for="floatingPassword">Weight/kg</label>
+          </div>
+          <div class="form-floating mb-3 mt-3">
+            <input type="number" class="form-control" id="floatingInput" placeholder="Age">
+            <label for="floatingInput">Age</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Sex">
+            <label for="floatingPassword">Sex</label>
+          </div>
+          <div class="d-grid gap-2 m-4">
+            <button class="btn btn-warning" type="button">Calculate</button>
+           
+          </div></div>
+        <div class="col-sm-3"></div>
+    </div>
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+         <div class="row text-center text-md-left">
+           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+             <h5 class="text-uppercase mb-4 fw-bold text-warning">Fitness club</h5>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint non quisquam architecto error dolorum! Consequuntur amet architecto consequatur modi dicta similique totam facere velit dolore natus. Eligendi consequatur temporibus dolorem!</p>
+           </div>
+           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+             <h5 class="text-uppercase mb-4 fw-bold text-warning">Useful Links</h5>
+             <p><a href="#" class="text-white" style="text-decoration: none;">About</a></p>
+             <p><a href="#" class="text-white" style="text-decoration: none;">classes</a></p>
+             <p><a href="#" class="text-white" style="text-decoration: none;">services</a></p>
+             <p><a href="#" class="text-white" style="text-decoration: none;">contact</a></p>
+      
+           
+      
+           </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+             <h5 class="text-uppercase mb-4 fw-bold text-warning">Support</h5>
+             <p><a href="#" class="text-white" style="text-decoration: none;">Our Team</p>
+             <p><a href="#" class="text-white" style="text-decoration: none;">Pages</a></p>
+             <p><a href="#" class="text-white" style="text-decoration: none;">Help</a></p>
+             <p><a href="#" class="text-white" style="text-decoration: none;">Product</a></p>
+      
+           </div>
+           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+             <h5 class="text-uppercase mb-4 fw-bold text-warning">Contact</h5>
+             <p><i class="fas fa-home mr-3"></i> Chitrakoot ,210204 uttar pradesh</p>
+             <p><i class="fas fa-envelope-circle-check mr-3"></i> sonickt10@gmail.com</p>
+             <p><i class="fas fa-phone mr-3"></i> 91-7518658824</p>
+             <p><i class="fas fa-print mr-3"></i>+01 333 125 458 525</p>
+      
+      
+      
+      
+      
+           </div>
+         </div>
+         <hr class="mb-4">
+         <div class="row align-items-center">
+           <div class="col-md-7 col-lg-8">
+             <p>Copyright &copy;2023 All rights reserved by:</p>
+      
+           </div>
+           <div class="col-md-5 col-lg-4">
+             <div class="text-center text-md-right">
+               <ul class="list-unstyled list-inline">
+                 <li class="list-inline-item">
+                     <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                 </li>
+                 <li class="list-inline-item">
+                   <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+               </li>
+               <li class="list-inline-item">
+                 <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+             </li>
+             <li class="list-inline-item">
+               <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+           </li>
+           <li class="list-inline-item">
+             <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-whatsapp"></i></a>
+         </li>
+      
+               </ul>
+             </div>
+      
+           </div>
+         </div>
+        </div>
+       </footer>
+</body>
+</html>
